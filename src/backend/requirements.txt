@@ -26,6 +26,9 @@ opentelemetry-exporter-otlp-proto-grpc
 # Date and internationalization
 babel>=2.9.0
 
+# Content processing tools
+PyMuPDF>=1.23.0  # For PDF processing
+
 # Testing tools
 pytest>=8.2,<9  # Compatible version for pytest-asyncio
 pytest-asyncio==0.24.0
